@@ -1,0 +1,13 @@
+{
+  "name": "streamer",
+  "version": "0.0.0",
+  "description": "Streamer",
+  "main": "server.js",
+  "author": {
+    "name": "Harrison South",
+    "email": "hsouth95@hotmail.co.uk"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

@@ -1,8 +1,6 @@
-﻿var express = require('express');
-var router = express.Router();
-
-var mongoose = require("mongoose");
-var Song = require("../models/Song.js");
+﻿var express = require('express'),
+    router = express.Router(),
+    Song = require("../models/Song.js");
 
 /** GET - Heartbeat check for this service */
 router.get("/hi", function (req, res) {
